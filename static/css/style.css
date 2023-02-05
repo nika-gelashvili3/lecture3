@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Poppins";
+}
+
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+/* reset */
+li {
+}
+
+header {
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom-style: solid;
+}
+li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  margin-right: 20px;
+}
+.product-content {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 15px;
+  width: 340px;
+  padding: 15px 15px 25px 15px;
+}
+.product content img {
+  width: 100px;
+}
+.product-content h3 {
+  margin: 15px 0;
+}
+.product-content p {
+  margin-top: 15px;
+}
+.product-content h3,
+.product-content p {
+  margin-left: 10px;
+}
+.product-wrapper {
+  display: inline-block;
+}
+.product-footer button {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 6px 26px;
+  background-color: inherit;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.product-footer {
+  text-align: right;
+  margin-top: 20px;
+}
+
+nav {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.product-section {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.main-header {
+  margin: 0 auto;
+  width: fit-content;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.list-items li {
+  color: #000000;
+  list-style: initial;
+}
+
+.nav-items li {
+  display: inline-block;
+}
+.nav-items li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.list-items {
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+.product-wrapper {
+  margin-right: 100px;
+}
+
+.product-last-child {
+  margin-right: 0;
+}
+
+.contact-header,
+.about-header {
+  color: #7d0000;
+  font-size: 40px;
+  letter-spacing: 0.03em;
+  line-height: 54px;
+  font-weight: 600;
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 80px;
+}
+
+.contact-info {
+  line-height: 34px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.email {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.overall-info {
+  margin-top: 150px;
+  margin-left: 250px;
+}
+
+.random-info {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 165%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  margin-top: 150px;
+  width: 775px;
+}
+
+.address {
+  margin-top: 90px;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.03em;
+  font-size: 25px;
+}
